@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+	int a = 1, 2, 3;
+	int b = (1, 2, 3);
+	int c;
+	c = 1, 2, 3;
+	return 0;
+}

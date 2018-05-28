@@ -1,0 +1,27 @@
+
+
+Walk:- no edges are repeated..
+Path:- no edges and vertices are repeated...
+Circuit:- path in which only initial and the final vertices are repeated only....
+
+
+
+Hamiltonian Path: 
+				Hamiltonian path not line...
+				a closed walk having no vertices repeated i.e. =>simply a path
+				in which all the vertices are covered but not necessarily all the edges.
+.	
+				Hamiltonian circuit:- circuit having above property..
+					
+
+		Property=> there are (n-1)/2 number of edge disjoint Hamiltonian circuit 
+					having n vertices in COMPLETE GRAPH only...
+
+
+Euler Graph:	Euler Line=>	
+				a closed walk => walk		i.e. vertex may repeat
+					in which all the edges must be covered not necessarily all the vertex 
+					
+				property=>	all the degrees must be even.. for a graph to be euler ...
+	
+					

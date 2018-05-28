@@ -1,0 +1,29 @@
+
+-----------------------------------------------------------------------------------------------------
+For  weighted both:-
+1.Longest Path In Tree(Undirected):-
+		two bfs:- one from starting node e.g. 1 and another from the node whose d[] vector is maximum.
+		
+			2.For unweighted tree undirected:-  take weight as 1
+			
+			Note:----- both the algo are almost similar
+------------------------------------------------------------------------------------------------------
+
+
+3.Longest Path in DAG(weighted directed Tree ):-
+					Topological sorting 
+						algo can be found in the same directory
+		take weight =1 for unweighted tree
+-----------------------------------------------------------------------------------------------------
+Alternative to 3:- 
+
+4.For tree (directed unweighted):- Diameter of tree
+
+Centre:- The node whose eccentricity is minimum.
+Eccentricity:- The distance of node farthest from one.
+Tree has one or two centre.
+
+
+
+
+
