@@ -32,3 +32,7 @@ Uses in matrix:
   3. Zero Sum Rectangle
     Sample: https://www.geeksforgeeks.org/largest-rectangular-sub-matrix-whose-sum-0/
     Soln: Iterate through columns and use rows for zero sum subarray - Variant:c - O(n)
+
+  4. Minimum square m*m in a M*N matrix:
+     Soln: using Smart Caching similar to: https://leetcode.com/problems/range-sum-query-2d-immutable/solution/
+     Complexity: O(N*M)
