@@ -1,0 +1,34 @@
+Sum Subarray - :
+  Solutions:
+    1. Brute Force O(n^2)
+    2. Using Multiset for search the subarray - O(nlogn)
+    3. Using kadane's algorithm - O(n)
+
+  Variants:
+    a) Maximum Sum Subarray - Using 1 and 3 - Theta(n)
+    b) Sum Subarray less than k -  Using 1 and 2 - Theta(nlogn)
+    c) Zero sum subarray - Using 1 and 2 - Theta(nlogn)
+
+Maximum Area in Histogram:
+  Sample: https://leetcode.com/problems/largest-rectangle-in-histogram/
+  Best Solution: Using stack O(n)
+
+Uses in matrix:
+  1. Maximum rectangle in 0/1 matrix:
+    Sample: https://leetcode.com/problems/maximal-rectangle/
+    Iterate through columns and use rows for finding maximum area in histogram
+
+    Variant:
+      Maximum Square in 0/1 Matrix: https://leetcode.com/problems/maximal-square/
+      Soln: Form a dp using minimum of all three corners and adding up 1
+
+  2. Maximum sum rectangle in a matrix:
+    Sample: https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/
+    Soln: Iterate through columns and use rows for finding maximum subarray using kadane's - Variant:a - O(n)
+    Variant:
+      Max Sum of Rectangle less Than K:
+      Sample: https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+      Soln: Iterate through columns and use rows for maximum subarray less than k - Variant:b - O(nlogn)
+  3. Zero Sum Rectangle
+    Sample: https://www.geeksforgeeks.org/largest-rectangular-sub-matrix-whose-sum-0/
+    Soln: Iterate through columns and use rows for zero sum subarray - Variant:c - O(n)
