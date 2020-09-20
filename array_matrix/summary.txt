@@ -37,3 +37,6 @@ Uses in matrix:
      Soln: using Smart Caching by sliding the m*m square by 1 from left and top till reaching bottom right corner
      Similar to: https://leetcode.com/problems/range-sum-query-2d-immutable/solution/
      Complexity: O(N*M)
+  5. Counting number of squares in a 0/1 matrix:
+     Soln: Similar to maximum square in 0/1 matrix where we sum all of the  values of dp matrix to get the answer.
+     Sample: https://leetcode.com/problems/count-square-submatrices-with-all-ones/
